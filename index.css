@@ -1,0 +1,132 @@
+html {
+    font-family: 'Xanh Mono', Serif;
+}
+@font-face {
+    font-family: 'Griffy';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/griffy/v21/FwZa7-ox2FQh9kfAT96F.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+    font-family: 'Xanh Mono';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/xanhmono/v17/R70YjykVmvKCep-vWhSonwqR.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+
+/* Header section*/
+
+.header {
+    position: fixed;
+    background-color: grey;
+    width: 100%;
+    opacity: 0.9
+
+}
+.header li {
+    display: inline-block;
+    float: right;
+    padding-right: 280px;
+    padding-bottom: 15px;
+    color: white;
+    
+    
+    /*font roboto*/
+}
+
+
+
+/* banner section*/
+
+.banner {
+    Padding-top: 100px;
+    padding-bottom: 250px;
+    text-align: center;
+    font-size: 30px;
+}
+#bgimage {
+    background-image: url('https://i.postimg.cc/NMDdXv7K/water-cascading.webp');
+    background-size: cover;
+    padding: 200px;
+    image-rendering: -webkit-optimize-contrast;
+    
+}
+.author {
+    font-style: italic;
+    font-weight:lighter;
+    opacity: .9;
+}
+
+/* p section*/
+
+h2 {
+    text-align: center;
+    font-size: 40px;
+    letter-spacing: 4px;
+    padding: 40px;
+    background-color: black;
+    background-size: cover;
+    margin: 0 0;
+    color: white;
+    
+    
+    
+}
+
+.border p{
+    text-align: center;
+    font-size: 20px;
+    padding: 50px 300px 50px 300px;
+    background-color:rgb(118, 118, 118);
+    color: white;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 1.5;
+    
+
+}
+.hierarchy h2{
+    font-family: 'Griffy';
+}
+
+/* Table section*/
+.tablesection p {
+    text-align: center;
+    font-size: 20px;
+    padding: 50px 300px 50px 300px;
+    background-color:rgb(118, 118, 118);
+    color: white;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 1.5;
+}
+
+.table {
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 30px;
+    padding: 120px;
+    color: white;
+
+}
+.table th {
+    border: solid white 1px;
+    background-color: 	rgb(0, 0, 0);
+    color: white;
+}
+.table td {
+    border: solid white 1px;
+    background-color: gray;
+}
+#foot {
+    background-color: 	rgb(4, 3, 0);
+    letter-spacing: 1.8px;
+    font-size: 23.7px;
+    
+}
+
+/*Example section*/

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' href='index.css'>
+    <title>Style Sheets</title>
+</head>
+<body>
+    <!--Header--><!--make sure to add logo, CSS image already saved-->
+  
+    <nav class="header">
+
+        <ol>
+            
+            <a href='#b'><li>Grouping</li></a>
+            <a href='#a'><li>Hierarchy</li></a>
+            <a href='#c'><li>CSS Selectors</li></a>
+            <li>&#128640</li>
+        </ol>
+        
+    </nav>
+    </header>
+
+    <!--Banner-->
+    <div class="banner" id="bgimage">
+        <h1>Cascading Style Sheets, and their <em>Flow</em></h1><!--image here in the background of water cascading over rocks-->
+        <p class="author">By Dominic N. Abbott</p><!--Italis, Monospace-->
+    </div>
+    <!--border section-->
+    <!--Hierarchy-->
+<div class="border">
+    <div class="hierarchy" id="a">
+        <h2>Hierarchy &#128081</h2>
+        <p>CSS stands for "Cascading Style Sheets." Like water that trickles down, 
+            from one rock to the next, CSS Selectors affect every element on the page
+            according to a hierarchy. If you were to use selectors simply 
+            like water trickling down a river, in top-down fashion, you would have a 
+            hard time keeping your styling from running through each element on the 
+            page. In order to have a smooth-flowing webpage, the page needs to be 
+            planned out in sections, so that each Selector is affecting the bare 
+            minimum elements required.</p> 
+        </div>
+
+    <div class="Grouping" id="b">
+        <h2>Grouping &#127857</h2> <!--Need to re write paragraph here-->
+        <p>On the other hand, when dealing with styles that stay the same 
+        throughout the document- you will be able to keep things clean and easy 
+        to read/edit by grouping the same style affects that effect different 
+        selectors. </p> 
+    </div>
+</div>
+    <!--Selectors Table-->
+
+    <div class="tablesection" id="c">
+        <h2>CSS Selectors &#128162</h2>
+        <p>Below you will find a table which has the different selectors that 
+            must be used to differentiate your style affects:</p>
+        <table class="table">
+            <thead>
+              <tr>
+                <th>Name</th>
+                <th>Description</th>
+                <th>Examples</th>
+              </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Element Selector</td>
+                    <td>Selects HTML elements based on the element name itself</td>
+                    <td>p {...}</td>
+                </tr>
+                <tr>
+                    <td>ID Selector</td>
+                    <td>Selects the given id attribute of an HTML element</td>
+                    <td>#element {...}</td>
+                </tr>
+                <tr>
+                    <td>Class Selector</td>
+                    <td>The class selector selects HTML elements with a specific class attribute</td>
+                    <td>.selectors {...}</td>
+                </tr>
+                <tr>
+                    <td>Universal Selector</td>
+                    <td>Selects all html elements on the page</td>
+                    <td>* {...}</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    
+                    <td colspan="3" id="foot">Elements can also be combined. For Example: 
+                        '<em>.selector</em> + <em>p</em>' or 
+                        '<em>#example</em> + <em>h2</em>' or 
+                        '<em>div</em> + <em>p</em>'</td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+        
+</body>
+</html>
